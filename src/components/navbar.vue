@@ -1,8 +1,9 @@
 <template>
 <div class="main-menu">
-  <b-navbar toggleable="lg" class="navbar">
+  <b-navbar toggleable="lg" class="navbar ">
     <b-navbar-brand class="navbar-brand" href="#"><img src="../Image/logo.png" alt=""></b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse is-nav id="nav-collapse">
       <b-navbar-nav class="ml-auto nav-link">
         <b-nav-item a class="active" href="#">Home</b-nav-item>
         <b-nav-item  href="#">About Us</b-nav-item>
@@ -10,6 +11,7 @@
         <b-nav-item  href="#">Portfolio</b-nav-item>
         <b-nav-item href="#">Blog</b-nav-item>
       </b-navbar-nav>
+    </b-collapse>
   </b-navbar>
 </div>
 </template>
@@ -45,5 +47,13 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+@media only screen and (max-width: 340px){
+  .navbar,
+  .navbar-brand {
+    padding: 2% !important;
+    margin: 0;
+  }
+
 }
 </style>

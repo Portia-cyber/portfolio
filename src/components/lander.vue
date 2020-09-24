@@ -106,4 +106,9 @@ export default { name: 'lander.vue' }
   z-index: -1;
   border-radius: 4px;
 }
+@media only screen and(max-width: 340px){
+  h1{
+    font-size: 41px;
+  }
+}
 </style>
