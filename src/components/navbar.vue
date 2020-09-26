@@ -1,6 +1,6 @@
 <template>
 <div class="main-menu">
-  <b-navbar toggleable="lg" class="navbar ">
+  <b-navbar toggleable="lg" class="navbar">
     <b-navbar-brand class="navbar-brand" href="#"><img src="../Image/logo.png" alt=""></b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav-collapse">
@@ -23,7 +23,8 @@ export default {
 </script>
 
 <style scoped>
-
+@import '../assets/global.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .navbar-brand{
   padding: 0 2rem 0 5rem;
 }
@@ -47,13 +48,5 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-@media only screen and (max-width: 340px){
-  .navbar,
-  .navbar-brand {
-    padding: 2% !important;
-    margin: 0;
-  }
-
 }
 </style>
