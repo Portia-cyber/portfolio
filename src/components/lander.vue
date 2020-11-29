@@ -1,6 +1,6 @@
 <template>
 <main class="site-main">
-  <section class="site-name">
+  <section class="site-name" id="lander">
     <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-12 side-title">

@@ -1,5 +1,5 @@
 <template>
-  <div class="service container">
+  <div class="service container" id="services">
     <div class="row">
       <div class="col-lg-12">
         <h1 class="text-uppercase service-title">

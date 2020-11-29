@@ -1,15 +1,14 @@
 <template>
 <div class="main-menu">
-  <b-navbar toggleable="lg" class="navbar">
+  <b-navbar toggleable="lg" class="navbar sticky">
     <b-navbar-brand class="navbar-brand" href="#"><img src="../Image/logo.png" alt=""></b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav-collapse">
-      <b-navbar-nav class="ml-auto nav-link">
-        <b-nav-item a class="active" href="#">Home</b-nav-item>
-        <b-nav-item  href="#">About Us</b-nav-item>
-        <b-nav-item  href="#">Services</b-nav-item>
-        <b-nav-item  href="#">Portfolio</b-nav-item>
-        <b-nav-item href="#">Blog</b-nav-item>
+      <b-navbar-nav class="m-auto nav-link">
+        <b-nav-item a class="navlink" href="#">Home</b-nav-item>
+        <b-nav-item class="navlink"  href="#lander">About Us</b-nav-item>
+        <b-nav-item  class="navlink" href="#services">Services</b-nav-item>
+        <b-nav-item  class="navlink" href="#project">Portfolio</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -43,7 +42,7 @@ export default {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.nav-link:hover{
+.navlink:hover{
   background:linear-gradient(90deg,#4458dc 0%,#854fee 100% );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

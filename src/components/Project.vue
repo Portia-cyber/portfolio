@@ -1,5 +1,5 @@
 <template>
-  <div class="container project-area">
+  <div class="container project-area" id="project">
     <div class="project-title pb-5">
       <h4 class="text-uppercase title-h1">
         Recently Done Project
